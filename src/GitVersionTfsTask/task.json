@@ -27,12 +27,12 @@
   "instanceNameFormat": "GitVersion",
   "inputs": [
     {
-      "name": "updateAssemblyInfo",
-      "type": "boolean",
-      "label": "Update AssemblyInfo files",
-      "defaultValue": "false",
-      "required": false,
-      "helpMarkDown": "Whether to update versions in the AssemblyInfo files"
+      "name":  "updateAssemblyInfo",
+      "type":  "filePath",
+      "label":  "Update AssemblyInfo file",
+      "defaultValue":  "false",
+      "required":  false,
+      "helpMarkDown":  "Whether to update versions in AssemblyInfo files (true), update a specific file (path to file) or nothing (false)"
     },
     {
       "name": "additionalArguments",
